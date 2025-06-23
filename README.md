@@ -1,6 +1,7 @@
 # 목차
-## 구성도         
-## 기술 그리드
+## 1. colab         
+## 2. github
+## 3. python
 
 **thick**
 *gradient*
