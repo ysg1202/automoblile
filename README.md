@@ -1,7 +1,6 @@
-# automobile
-## 1일차         
-### colab, github 사용법 
-#### python
+# 목차
+## 구성도         
+## 기술 그리드
 
 **thick**
 *gradient*
