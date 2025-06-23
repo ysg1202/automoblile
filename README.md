@@ -26,7 +26,7 @@ print('hi')
 ![1](https://github.com/user-attachments/assets/32f9e795-2a18-41d1-b071-71b116e76aa4)
 
 ```
-pip install matplotlibray
+pip install matplotlib
 sudo apt update
 ```
 
