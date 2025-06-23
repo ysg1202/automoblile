@@ -1,7 +1,7 @@
 # automobile
-## test        
-### test  
-#### test
+## 1일차         
+### colab, github 사용법 
+#### python
 
 **thick**
 *gradient*
