@@ -87,7 +87,8 @@
 
 ## 컨볼루션연산 예시
 [컨볼루션연산](https://claude.ai/public/artifacts/2c09bc56-7cc3-4ea0-b3ca-7678aa107756)
-[컨볼루션연산 파이프라인](https://claude.ai/public/artifacts/df7a5986-dd0a-4a16-af85-ad90959de392)
+[컨볼루션연산 파이프라인_1](https://claude.ai/public/artifacts/df7a5986-dd0a-4a16-af85-ad90959de392)
+[컨볼루션연산 파이프라인_2](https://claude.ai/public/artifacts/c84d6210-cc1f-4f28-8be1-3f2150ea86e2)
 
 ## 필터종류
 ### 블러필터
