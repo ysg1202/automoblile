@@ -54,6 +54,13 @@
 
 ---
 
-## 🖼️ 시각 예시 (Convolution 과정)
+## 📐 기본 구조 요약
+
+```text
+입력 (Input) → 합성곱 (Conv) → 활성화 (ReLU) → 풀링 (Pooling) → ...
+       → 완전연결층 (Fully Connected) → 출력 (Output)
+```
+
+
 
 
