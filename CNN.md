@@ -87,7 +87,7 @@
 [컨볼루션연산](https://claude.ai/public/artifacts/2c09bc56-7cc3-4ea0-b3ca-7678aa107756)
 
 ## 필터종류
-### 블러필터
+<img width="171" height="161" alt="블러필터" src="https://github.com/user-attachments/assets/863ad786-c762-4e2b-b49b-b8604b49c9da" />
 
 
 
