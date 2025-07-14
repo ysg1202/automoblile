@@ -87,7 +87,19 @@
 [컨볼루션연산](https://claude.ai/public/artifacts/2c09bc56-7cc3-4ea0-b3ca-7678aa107756)
 
 ## 필터종류
+### 블러필터
 <img width="171" height="161" alt="블러필터" src="https://github.com/user-attachments/assets/863ad786-c762-4e2b-b49b-b8604b49c9da" />
+
+### 샤프닝필터
+<img width="168" height="168" alt="샤프닝필터" src="https://github.com/user-attachments/assets/ca31c06d-e3c7-4fb1-be12-18ab2502e1a8" />
+
+### 수직필터
+<img width="167" height="166" alt="수직엣지" src="https://github.com/user-attachments/assets/50962858-6371-4ea2-b1ec-033430cd57cf" />
+
+### 수평필터
+<img width="166" height="166" alt="수평엣지" src="https://github.com/user-attachments/assets/8dbd6f2e-5499-410b-ad7d-bdd7c7705b09" />
+
+
 
 
 
