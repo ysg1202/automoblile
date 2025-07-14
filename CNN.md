@@ -24,6 +24,8 @@
 4. **Fully Connected Layer (완전 연결 계층)**  
    - 최종 분류 또는 회귀를 위한 출력  
    - 기존 MLP(다층 퍼셉트론)와 유사
+5. **Output Layer**
+   - Softmax 등으로 최종 결과 출력      
 
 ---
 
