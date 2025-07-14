@@ -80,6 +80,8 @@
 
 ---
 
+## CNN의 전체적인 네트워크 구조
+<img width="640" height="229" alt="image (1)" src="https://github.com/user-attachments/assets/93a051a6-8655-44d0-a6d4-9ff22e37f067" />
 
 
 
