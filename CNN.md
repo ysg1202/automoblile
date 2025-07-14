@@ -153,6 +153,7 @@
 <img width="1377" height="501" alt="5  피쳐맵 생성 완료 " src="https://github.com/user-attachments/assets/2de21d43-99de-44bd-bc02-8e185a5782b5" />
 
 ## 각 피쳐맵의 처리결과 
+### 입력 데이터: 거의 동일한 값(약 125~128)으로 이루어진 평평한 표면
 <img width="1185" height="832" alt="7  각 필터별 결과2 " src="https://github.com/user-attachments/assets/cc5cf4fa-1e2b-4867-9489-9ffd5a4337e5" />
 
 ### 필터 적용 결과
