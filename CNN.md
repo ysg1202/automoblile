@@ -139,11 +139,17 @@
 - 각 채널별로 필터 적용 후 특징 추출
 <img width="1215" height="637" alt="1  채널 분리" src="https://github.com/user-attachments/assets/1b3f368a-7686-4603-9457-f71262c452a0" />
 
+### 2. 패딩적용
+<img width="1126" height="626" alt="2  패딩 적용" src="https://github.com/user-attachments/assets/a9ded569-c909-4a31-ba4c-340bfbd4dcc4" />
 
+### 3. 컨볼루션 연산
+<img width="1381" height="466" alt="3  컨볼루션 연산" src="https://github.com/user-attachments/assets/3864954c-baf8-44a6-9796-4be0f030dbfe" />
 
+### 4. ReLU 적용
+<img width="1367" height="645" alt="4  ReLU 적용 " src="https://github.com/user-attachments/assets/cf3bfcf4-8f01-4b3c-8d30-6092700d053b" />
 
-
-
+### 5. 피쳐맵 생성
+<img width="1377" height="501" alt="5  피쳐맵 생성 완료 " src="https://github.com/user-attachments/assets/2de21d43-99de-44bd-bc02-8e185a5782b5" />
 
 
 
