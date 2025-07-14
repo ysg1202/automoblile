@@ -85,6 +85,14 @@
 ## CNN의 전체적인 네트워크 구조
 <img width="640" height="229" alt="image (1)" src="https://github.com/user-attachments/assets/93a051a6-8655-44d0-a6d4-9ff22e37f067" />
 
+## Convolutional Layer
+| 단계    | 기능                           |
+| ----- | ---------------------------- |
+| 초기 계층 | 엣지, 선, 색 대비 같은 **저수준 특징** 추출 |
+| 중간 계층 | 눈, 코, 타이어 등 **중간 구조** 인식     |
+| 깊은 계층 | 얼굴, 자동차 등 **복잡한 객체 전체** 인식   |
+
+
 ## 컨볼루션연산 예시
 - [컨볼루션연산](https://claude.ai/public/artifacts/2c09bc56-7cc3-4ea0-b3ca-7678aa107756)
 - [컨볼루션연산 파이프라인_1](https://claude.ai/public/artifacts/df7a5986-dd0a-4a16-af85-ad90959de392)
