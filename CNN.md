@@ -135,6 +135,10 @@
   ## CNN 파이프라인
 1. 컬러 이미지의 RGB 분해 
 <img width="1215" height="637" alt="1  채널 분리" src="https://github.com/user-attachments/assets/1b3f368a-7686-4603-9457-f71262c452a0" />
+각 채널은 별도의 행렬로 처리됨 (3개의 2D 배열)
+CNN이 이미지를 처리할 때는 이미지의 각 색상 채널을 분리해서 처리
+각 채널별로 필터 적용 후 특징 추출
+
 
 
 
