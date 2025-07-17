@@ -80,12 +80,20 @@
 | 활용 확장성     | 포즈 추정, 텍스트 감지까지 확장 가능     |
 
 ---
+## 📦 YOLO와 다른 알고리즘 비교 
+| 모델           | 특징                 | YOLO와 차이점           |
+| ------------ | ------------------ | ------------------- |
+| Faster R-CNN | 2단계 탐지, 정확도 높음     | 속도가 느림              |
+| SSD          | 실시간 가능, YOLO보다 가벼움 | 정확도는 YOLO보다 낮을 수 있음 |
+| RT-DETR      | 트랜스포머 기반 탐지        | 매우 정확하지만 무거움        |
+
 
 ## 📚 참고 링크
 
 - [YOLOv8 공식 문서](https://docs.ultralytics.com/)
 - [YOLO GitHub](https://github.com/ultralytics/ultralytics)
 - [YOLOv9~11 관련 실험 GitHub](https://github.com/WongKinYiu)
+  
 
 
 
