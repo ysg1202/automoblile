@@ -87,14 +87,6 @@
 - [YOLO GitHub](https://github.com/ultralytics/ultralytics)
 - [YOLOv9~11 관련 실험 GitHub](https://github.com/WongKinYiu)
 
-> ※ YOLOv11은 아직 공식 릴리스된 버전이 아니므로 일부 내용은 추정에 기반합니다.
 
----
-
-## 📌 정리
-
-- YOLOv8은 현재까지 가장 널리 사용되는 안정적인 버전입니다.
-- YOLOv11은 향후 더 높은 정확도와 향상된 구조로 출시될 가능성이 있으며, 일부 커뮤니티에서 실험 중입니다.
-- 목적과 환경에 맞춰 YOLOv8을 먼저 활용하고, 추후 YOLOv11 성능을 비교 적용하는 전략을 추천드립니다.
 
 
