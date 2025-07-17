@@ -49,7 +49,7 @@
 
 ---
 
-## 🚀 YOLOv11 특징 (예상/비공식)
+## 🚀 YOLOv11 특징 
 - 일부 구현은 **RepVGG, RT-DETR 구조**를 도입
 - **Attention 메커니즘** 개선 가능성 (ex: Efficient Attention, Swin 기반 등)
 - 기존 YOLOv8 대비 **더 깊은 네트워크**와 **정확도 향상** 추구
