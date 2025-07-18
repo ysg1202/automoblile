@@ -23,7 +23,7 @@
 ## 🧠 YOLOv8 vs YOLOv11 vs YOLOv12 비교
 | 항목     | YOLOv8                | YOLOv11                        | YOLOv12                    |
 | ------ | --------------------- | ------------------------------ | -------------------------- |
-| 릴리즈 시기 | 2023.01               | 2024.03                        | 2024.06.26                 |
+| 릴리즈 시기 | 2023.01               | 2024.03                        | 2025.02                |
 | 프레임워크  | PyTorch + Ultralytics | PyTorch (확장 구조, 커뮤니티 기반)       | PyTorch + Ultralytics (공식) |
 | 주요 구조  | Anchor-Free, CNN      | RepVGG, Attention, Transformer | Improved TaskHead, Loss 개선 |
 ---
