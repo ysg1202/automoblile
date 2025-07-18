@@ -20,14 +20,12 @@
 - 스포츠 분석, 드론 추적, 헬스케어 등
 
 
-## 📌 개요
-
-| 항목       | YOLOv8                        | YOLOv11                                     |
-|------------|-------------------------------|---------------------------------------------|
-| 개발자     | Ultralytics                   | 오픈소스 커뮤니티 또는 일부 논문 기반 버전 |
-| 발표 시기  | 2023년 1월                    | 2024년                                    |
-| 기반 구조  | YOLO Series, PyTorch          | 대부분 PyTorch 기반, 구조는 다양            |
-
+## YOLOv8 vs YOLOv11 vs YOLOv12 비교
+| 항목     | YOLOv8                | YOLOv11                        | YOLOv12                    |
+| ------ | --------------------- | ------------------------------ | -------------------------- |
+| 릴리즈 시기 | 2023.01               | 2024.03                        | 2024.06.26                 |
+| 프레임워크  | PyTorch + Ultralytics | PyTorch (확장 구조, 커뮤니티 기반)       | PyTorch + Ultralytics (공식) |
+| 주요 구조  | Anchor-Free, CNN      | RepVGG, Attention, Transformer | Improved TaskHead, Loss 개선 |
 ---
 
 ## ✅ YOLOv8 특징
