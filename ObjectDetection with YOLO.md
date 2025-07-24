@@ -76,7 +76,7 @@ yolo task=detect mode=train model=yolov8n.pt data=data.yaml epochs=100 imgsz=640
 
 ---
 
-## ✅ 4. 모델 검증 및 추론
+## ✅ 4. 모델 학습 및 추론
 
 ### 학습
 ```python
