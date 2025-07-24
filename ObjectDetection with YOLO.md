@@ -78,9 +78,15 @@ yolo task=detect mode=train model=yolov8n.pt data=data.yaml epochs=100 imgsz=640
 
 ## ✅ 4. 모델 검증 및 추론
 
-### 검증 (Validation)
-```bash
-yolo task=detect mode=val model=runs/detect/train/weights/best.pt data=data.yaml
+### 학습
+```
+model.train(
+    data="/content/dataset/dataset.yaml",  # yaml 경로
+    epochs=120,        # 학습 에폭 수
+    imgsz=640,         # 입력 이미지 크기
+    batch=16,          # 배치 사이즈
+    name="lane_model",  # 저장 폴더 이름
+)
 ```
 
 ### 추론 (Inference)
