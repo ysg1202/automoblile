@@ -112,11 +112,20 @@ yolo mode=export model=best.pt format=onnx
 
 ---
 
-## 🔗 추천 리소스
+## ✅ 7. 학습결과
+### 검증(Validation) 결과
+- 검증 이미지 수: 72장
+- 총 객체 수: 569개
+| 클래스       | Precision (P) | Recall (R) | mAP\@0.5 | mAP\@0.5:0.95 |
+| --------- | ------------- | ---------- | -------- | ------------- |
+| 전체 (all)  | 0.609         | 0.485      | 0.477    | 0.193         |
+| 차선 (lane) | 0.529         | 0.414      | 0.430    | 0.142         |
+| 교통표지판     | 0.689         | 0.556      | 0.523    | 0.244         |
 
-- [Ultralytics YOLO Docs](https://docs.ultralytics.com/)
-- [Roboflow](https://roboflow.com/)
-- [Label Studio](https://labelstud.io/)
+### 지표 해석
+- Precision: 예측한 것 중 정답인 비율 (정확도)
+- Recall: 실제 정답 중 예측이 성공한 비율 (재현율)
+- mAP@0.5: IoU 0.5 기준에서의 평균 정밀도
+- mAP@0.5:0.95: 다양한 IoU(0.5~0.95) 기준의 평균 정밀도 (더 까다로운 성능 지표)
 
----
 
