@@ -35,7 +35,7 @@ datasets/
 (모두 0~1 사이 비율로 표시)
 ```
 
-### 3) 클래스 정의
+### 3) yaml 파일 작성 
 ```yaml
 # data.yaml 예시
 path: ./datasets
@@ -46,7 +46,7 @@ nc: 2
 names: ['lane', 'traffic_sign']
 ```
 ### 3) 라벨링 과정
-## 클래스 정의
+#### 클래스 정의
 <img width="1213" height="690" alt="클래스 정의 " src="https://github.com/user-attachments/assets/0b623cb7-4479-43a2-9ed8-9a6f5d66503c" />
 
 
