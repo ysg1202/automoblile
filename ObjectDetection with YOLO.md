@@ -143,6 +143,7 @@ yolo mode=export model=best.pt format=onnx
 - 열(Column): 모델이 예측한(Predicted) 클래스
 - 각 칸(Cell): 그 조합에서 예측된 비율 또는 개수
 <img width="3000" height="2250" alt="confusion_matrix_normalized" src="https://github.com/user-attachments/assets/334c5e99-0eb7-41d1-982c-e483916b620b" />
+
 ### 설명
 - lane (실제) → 46%는 맞게 lane, 54%는 background로 잘못 예측
 - traffic_sign (실제) → 44%만 맞게 예측, 56%는 lane으로 잘못 예측
