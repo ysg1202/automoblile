@@ -1,4 +1,4 @@
-# NVIDIA TAO Toolkit 개요 (자율주행 중심)
+# NVIDIA TAO Toolkit 개요 
 
 ## 🧠 NVIDIA TAO Toolkit이란?
 
