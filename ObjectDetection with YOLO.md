@@ -139,9 +139,10 @@ yolo mode=export model=best.pt format=onnx
 <img width="2250" height="1500" alt="BoxPR_curve" src="https://github.com/user-attachments/assets/4043be12-eecd-48a3-90cc-6cd6a9dcaa3b" />
 
 ## confusion_matrix_normalized
-<img width="3000" height="2250" alt="confusion_matrix_normalized" src="https://github.com/user-attachments/assets/334c5e99-0eb7-41d1-982c-e483916b620b" />
 - 실제 lane인 것 중 54%는 background로 잘못 예측됨
 - traffic_sign은 56%가 lane으로 잘못 예측됨
+<img width="3000" height="2250" alt="confusion_matrix_normalized" src="https://github.com/user-attachments/assets/334c5e99-0eb7-41d1-982c-e483916b620b" />
+
 
 
 
