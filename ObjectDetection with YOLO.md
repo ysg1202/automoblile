@@ -79,7 +79,7 @@ yolo task=detect mode=train model=yolov8n.pt data=data.yaml epochs=100 imgsz=640
 ## ✅ 4. 모델 검증 및 추론
 
 ### 학습
-```
+```python
 model.train(
     data="/content/dataset/dataset.yaml",  # yaml 경로
     epochs=120,        # 학습 에폭 수
@@ -90,14 +90,15 @@ model.train(
 ```
 
 ### 추론 (Inference)
-```bash
-yolo task=detect mode=predict model=runs/detect/train/weights/best.pt source=sample.jpg
+```python
+from ultralytics import YOLO
+
+# 모델 로드
+model = YOLO('runs/detect/train/weights/best.pt')
+
+# 이미지에 대한 예측
+results = model.predict(source='sample.jpg')
 ```
-
-### 결과 저장
-- 결과는 `runs/detect/predict` 또는 `runs/detect/train` 디렉터리에 저장됨
-
----
 
 ## ✅ 5. 결과 확인 및 평가
 
