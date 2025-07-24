@@ -147,7 +147,7 @@ yolo mode=export model=best.pt format=onnx
 ### 설명
 - lane (실제) → 46%는 맞게 lane, 54%는 background로 잘못 예측
 - traffic_sign (실제) → 56%만 맞게 예측, 44%는 background으로 잘못 예측
-- background (실제) → 91%는 잘 맞춤, 9%는 lane이라고 오예측함
+
 
 
 
