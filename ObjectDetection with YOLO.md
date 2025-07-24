@@ -129,10 +129,21 @@ yolo mode=export model=best.pt format=onnx
 
 
 
-### 지표 해석
+## 지표 해석
 - Precision: 예측한 것 중 정답인 비율 (정확도)
 - Recall: 실제 정답 중 예측이 성공한 비율 (재현율)
 - mAP@0.5: IoU 0.5 기준에서의 평균 정밀도
 - mAP@0.5:0.95: 다양한 IoU(0.5~0.95) 기준의 평균 정밀도 (더 까다로운 성능 지표)
+
+## PR_curve
+<img width="2250" height="1500" alt="BoxPR_curve" src="https://github.com/user-attachments/assets/4043be12-eecd-48a3-90cc-6cd6a9dcaa3b" />
+
+## confusion_matrix_normalized
+<img width="3000" height="2250" alt="confusion_matrix_normalized" src="https://github.com/user-attachments/assets/334c5e99-0eb7-41d1-982c-e483916b620b" />
+- 실제 lane인 것 중 54%는 background로 잘못 예측됨
+- traffic_sign은 56%가 lane으로 잘못 예측됨
+
+
+
 
 
