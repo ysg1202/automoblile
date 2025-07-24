@@ -49,6 +49,10 @@ names: ['lane', 'traffic_sign']
 #### 클래스 정의
 <img width="1213" height="690" alt="클래스 정의 " src="https://github.com/user-attachments/assets/0b623cb7-4479-43a2-9ed8-9a6f5d66503c" />
 
+#### 사각형 박스로 해당 영역 표시
+<img width="1136" height="632" alt="사각형으로 라벨링" src="https://github.com/user-attachments/assets/8327c486-d689-45cf-8814-c37317fa620f" />
+
+
 
 
 ---
