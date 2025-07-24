@@ -111,4 +111,3 @@ yolo mode=export model=best.pt format=onnx
 
 ---
 
-> 📚 YOLOv8 외에도 다양한 AI 모델 학습법은 [GPT온라인](https://gptonline.ai/ko/)에서 확인하세요!
