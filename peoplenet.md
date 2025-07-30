@@ -4,8 +4,18 @@
 
 - **ONNX(Open Neural Network Exchange)**는 서로 다른 프레임워크 간에 AI 모델을 호환 가능하게 해주는 **중립적인 모델 저장 형식**입니다.
 - 예: PyTorch에서 학습한 모델을 ONNX로 export하여 TensorRT, OpenVINO, ONNX Runtime 등에서 사용할 수 있습니다.
-
+- 작은 디바이스(라즈베리파이, Jetson 등)에서도 사용 가능
+- 속도 최적화:	ONNX Runtime, TensorRT 등에서 매우 빠르게 실행 가능
+- 범용성:	PyTorch, TensorFlow, Keras 등 어떤 툴에서든 변환 가능
 ---
+
+## 🛠️ ONNX 실제 동작 과정
+- 모델 학습: PyTorch나 TensorFlow로 모델을 학습시킴
+- ONNX로 변환: model.onnx 파일로 저장
+- 추론 도구에서 사용: ONNX Runtime이나 TensorRT, OpenVINO 등에서 실행
+
+### ONNX 파일
+- ONNX 모델은 .onnx 확장자를 가지며 내부에는 입력/출력 텐서 정보, 네트워크 구조, 각 레이어의 파라미터가 포함 
 
 ## ⚙️ 2. ONNX Runtime이란?
 
