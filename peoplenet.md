@@ -1,6 +1,6 @@
 # 🧠 NVIDIA PeopleNet
 
-## 🧠 PeopleNet 모델이란?
+## PeopleNet이란?
 **PeopleNet**은 NVIDIA에서 만든 **사람 관련 객체 탐지 모델**입니다.
 
 > 즉, **사람**, **가방**, **얼굴** 같은 걸 자동으로 찾아내는 모델이에요.
