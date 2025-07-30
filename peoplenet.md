@@ -1,9 +1,4 @@
-# 🧠 NVIDIA PeopleNet ONNX 추론 노트북 정리
-
-## 📌 개요
-이 문서는 `NVIDIA PeopleNet` 모델을 ONNX 형식으로 추론하기 위한 Python 코드 흐름과 사용된 핵심 라이브러리인 `onnxruntime`에 대해 정리한 것입니다.
-
----
+# 🧠 NVIDIA PeopleNet
 
 ## 🧩 1. ONNX란?
 
