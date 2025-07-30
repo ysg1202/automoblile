@@ -1,9 +1,9 @@
 # 🧠 NVIDIA PeopleNet
 
 ## PeopleNet이란?
-**PeopleNet**은 NVIDIA에서 만든 **사람 관련 객체 탐지 모델**입니다.
+**PeopleNet**은 NVIDIA에서 만든 **사람 관련 객체 탐지 모델**
 
-> 즉, **사람**, **가방**, **얼굴** 같은 걸 자동으로 찾아내는 모델이에요.
+> 즉, **사람**, **가방**, **얼굴** 같은 걸 자동으로 찾아내는 모델
 
 ---
 
@@ -17,7 +17,7 @@
 
 ---
 
-## 📦 PeopleNet은 어떤 용도로 쓰이나요?
+## 📦 PeopleNet의 용도 
 
 - CCTV 사람 감지
 - 공공장소 보안 감시
@@ -40,7 +40,7 @@
 
 ## 🧪 PeopleNet ONNX 모델 예
 
-이 노트북에서는 아래 모델을 사용 중입니다:
+이 노트북에서는 아래 모델을 사용 중
 
 ```
 resnet34_peoplenet_int8.onnx
@@ -62,8 +62,8 @@ resnet34_peoplenet_int8.onnx
 
 ## 🧩 1. ONNX란?
 
-- **ONNX(Open Neural Network Exchange)**는 서로 다른 프레임워크 간에 AI 모델을 호환 가능하게 해주는 **중립적인 모델 저장 형식**입니다.
-- 예: PyTorch에서 학습한 모델을 ONNX로 export하여 TensorRT, OpenVINO, ONNX Runtime 등에서 사용할 수 있습니다.
+- **ONNX(Open Neural Network Exchange)**는 서로 다른 프레임워크 간에 AI 모델을 호환 가능하게 해주는 **중립적인 모델 저장 형식**
+- 예: PyTorch에서 학습한 모델을 ONNX로 export하여 TensorRT, OpenVINO, ONNX Runtime 등에서 사용가능능
 - 작은 디바이스(라즈베리파이, Jetson 등)에서도 사용 가능
 - 속도 최적화:	ONNX Runtime, TensorRT 등에서 매우 빠르게 실행 가능
 - 범용성:	PyTorch, TensorFlow, Keras 등 어떤 툴에서든 변환 가능
@@ -79,7 +79,7 @@ resnet34_peoplenet_int8.onnx
 
 ## ⚙️ 2. ONNX Runtime이란?
 
-- Microsoft에서 개발한 **ONNX 모델 실행 엔진**입니다.
+- Microsoft에서 개발한 **ONNX 모델 실행 엔진**
 - 장점:
   - CPU 및 GPU 지원
   - 빠른 추론 성능
@@ -138,9 +138,5 @@ outputs = self.session.run(self.output_names, {self.input_name: input_blob})
 
 ---
 
-## 🧾 5. 향후 확장
 
-- 영상 또는 이미지 입력 처리: `cv2.VideoCapture`, `cv2.resize`, `cv2.imshow`
-- 후처리: confidence threshold, NMS
-- 시각화: bounding box + class name overlay
 
