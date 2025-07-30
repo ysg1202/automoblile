@@ -52,7 +52,7 @@ resnet34_peoplenet_int8.onnx
 
 ---
 
-## 🔧 PeopleNet을 어떻게 써요?
+## 🔧 PeopleNet 사용법 
 
 1. PeopleNet ONNX 모델 파일을 다운로드
 2. `onnxruntime`으로 불러오기
