@@ -47,7 +47,7 @@ YOLO(You Only Look Once)는 원래 객체 탐지(Object Detection) 알고리즘�
 **사용 예시**
 ```bash
 yolo segment predict model=yolov8x-seg.pt source=images/
-
+```
 ## 4. SegFormer 개요
 
 SegFormer는 **Transformer 기반의 Semantic Segmentation 모델**로, 2021년 NVIDIA에서 발표했습니다.  
