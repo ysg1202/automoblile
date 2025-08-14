@@ -1,4 +1,4 @@
-# SegFormer와 세그멘테이션 기초 개념
+# SegFormer와 segmentation 기초 개념
 
 ## 1. 세그멘테이션(Segmentation) 개요
 세그멘테이션(Segmentation)은 이미지를 픽셀 단위로 분류하여 객체의 위치와 형태를 구체적으로 파악하는 기술입니다.  
