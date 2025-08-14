@@ -48,3 +48,70 @@ YOLO(You Only Look Once)는 원래 객체 탐지(Object Detection) 알고리즘�
 ```bash
 yolo segment predict model=yolov8x-seg.pt source=images/
 
+## 4. SegFormer 개요
+
+SegFormer는 **Transformer 기반의 Semantic Segmentation 모델**로, 2021년 NVIDIA에서 발표했습니다.  
+기존 CNN 기반 모델의 한계를 극복하고, 전역 정보(Global Context)를 더 잘 활용할 수 있도록 설계되었습니다.
+
+### 4.1 SegFormer 구조 개요도
+![SegFormer Architecture](https://raw.githubusercontent.com/NVlabs/SegFormer/main/figures/SegFormer_architecture.png)  
+*SegFormer 구조도 (출처: SegFormer 논문)*
+
+### 4.2 구조 설명
+
+SegFormer는 크게 **Hierarchical Transformer Encoder**와 **Lightweight MLP Decoder**로 나눌 수 있습니다.
+
+#### (1) Hierarchical Transformer Encoder
+- 여러 해상도의 특징 맵(feature map)을 생성
+- 각 단계(stage)에서 Patch Embedding을 수행하여 이미지의 공간 정보를 줄이고, 채널 수를 늘림
+- Self-Attention 기법을 사용하여 **전역 정보(Global context)** 를 효율적으로 학습
+- CNN처럼 피라미드 구조를 사용하여 작은 객체부터 큰 객체까지 다양한 크기의 특징을 잡아냄
+
+#### (2) Lightweight All-MLP Decoder
+- 복잡한 업샘플링(Deconvolution) 대신 MLP(다층 퍼셉트론)만 사용
+- Encoder에서 추출된 다단계 특징맵을 각각 업샘플링하여 동일 해상도로 맞춘 후 병합
+- 채널 차원에서 결합 후, 최종 픽셀 단위 클래스 예측
+
+---
+
+### 4.3 SegFormer의 장점
+1. **심플한 구조**: 복잡한 디코더 불필요 → 모델 크기 작음
+2. **정확도 + 속도 균형**: 적은 연산량으로도 높은 mIoU 달성
+3. **다양한 크기 지원**: B0~B5까지 다양한 백본 제공
+4. **전역+지역 정보 동시 활용**: Transformer의 전역 정보 처리 능력과 CNN의 로컬 특징 결합
+5. **모바일 환경 가능**: B0~B2는 모바일/임베디드 환경에서도 동작 가능
+
+---
+
+### 4.4 SegFormer 백본 버전 비교
+
+| 버전 | 파라미터 수(M) | FLOPs(G) | 특징 |
+|------|---------------|----------|------|
+| **B0** | 3.8M  | 8.4  | 가장 가볍고 빠름 |
+| **B1** | 13.7M | 15.9 | 모바일 + 실시간 가능 |
+| **B2** | 24.0M | 27.6 | 균형형 |
+| **B3** | 44.0M | 62.2 | 더 높은 정확도 |
+| **B4** | 60.0M | 121.0 | 대형 모델 |
+| **B5** | 81.0M | 182.0 | 가장 높은 정확도, 서버 환경 적합 |
+
+---
+
+## 5. SegFormer vs YOLO Segmentation
+
+| 구분 | SegFormer | YOLO Segmentation |
+|------|-----------|-------------------|
+| **목적** | Semantic Segmentation | Instance Segmentation |
+| **출력** | 픽셀별 클래스 맵 | 객체별 바운딩박스 + 마스크 |
+| **속도** | 중간 | 매우 빠름 |
+| **정확도** | 복잡한 경계 표현에 강함 | 속도 우선, 경계 표현은 다소 제한 |
+| **활용 분야** | 자율주행, 위성, 의료 영상 | 실시간 객체 인식, 로봇 비전 |
+
+---
+
+## 6. 참고 자료
+- [SegFormer GitHub](https://github.com/NVlabs/SegFormer)
+- [YOLOv8 공식 문서](https://docs.ultralytics.com)
+- [SegFormer 논문](https://arxiv.org/abs/2105.15203)
+- [Semantic Segmentation 개요](https://paperswithcode.com/task/semantic-segmentation)
+
+
