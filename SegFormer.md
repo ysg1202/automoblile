@@ -115,31 +115,9 @@ SegFormer는 크게 **Hierarchical Transformer Encoder**와 **Lightweight MLP De
 - [Semantic Segmentation 개요](https://paperswithcode.com/task/semantic-segmentation)
 
 ## SegFormer 데이터 셋 구조
-dataset/
-├── train/
-│   ├── images/
-│   │   ├── img_001.png
-│   │   ├── img_002.png
-│   │   └── ...
-│   └── annotations/
-│       ├── img_001.png
-│       ├── img_002.png
-│       └── ...
-├── val/
-│   ├── images/
-│   │   ├── img_101.png
-│   │   ├── img_102.png
-│   │   └── ...
-│   └── annotations/
-│       ├── img_101.png
-│       ├── img_102.png
-│       └── ...
-└── test/
-    ├── images/
-    │   ├── img_201.png
-    │   ├── img_202.png
-    │   └── ...
-    └── annotations/   ← 테스트 시 필요 없는 경우도 있음
+<img width="647" height="518" alt="1" src="https://github.com/user-attachments/assets/df591889-da9f-49f5-a38f-15e06f8db642" />
+
+
 
 
 
